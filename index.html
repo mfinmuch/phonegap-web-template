@@ -1,0 +1,92 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/home.css">
+
+<style> 
+input[type=text] {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;	
+    background-color: white;
+    background-image: url("lock.png");
+    background-position: 8px 6px; 
+    background-repeat: no-repeat;	
+    width: 200px;
+    padding: 12px 45px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 30%;
+}
+
+input[type=password] {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;	
+    background-color: white;
+    background-image: url("key.png");
+    background-position: 8px 8px; 
+    background-repeat: no-repeat;	
+    width: 200px;
+    padding: 12px 45px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=password]:focus {
+    width: 30%;
+}
+
+input[type=submit] {
+width: 200px;
+height: 40px;
+border: none;
+border-radius: 10px;
+margin-top: 5px;
+font-size: 16px;
+background-color: rgba(41,36,33,0.4);
+color:white;
+}
+
+input[type=submit]:hover {
+background-color: rgba(41,36,33,0.8);
+}
+
+</style>
+
+<title>登入頁</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<br>
+<div class="row">
+<div class="column middle">
+<FORM ALIGN = CENTER METHOD="POST" ACTION="connect.php" >
+
+<INPUT TYPE="text" NAME="username" placeholder="Username.."><br>
+
+<INPUT TYPE="password" NAME="password" placeholder="Password.." ><br>
+<INPUT TYPE="submit" NAME="Submit_Button" VALUE="Sign In" >
+</FORM>
+<FORM ALIGN = CENTER METHOD="POST" ACTION="register.php" >
+<INPUT TYPE="submit" NAME="Submit_Button" VALUE="Sign Up" >
+</FORM>
+</div>
+</div>
+<div class="footer">
+ <p> Copyleft © 2018 All rights reserved</p>
+<p>No.170, Sanxing Rd., Minxiong Township, Chiayi County 62102, Taiwan (R.O.C.)</p>
+<p> Tel: (09)60229666</p>
+<p>E-mail: ccu60229@gmail.com</p>
+</div>
+
+</body>
+</html>
+
